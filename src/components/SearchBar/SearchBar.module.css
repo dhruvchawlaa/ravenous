@@ -1,0 +1,51 @@
+.search-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('https://i0.wp.com/eaglemushroomfest.org/wp-content/uploads/2024/03/EMF-Cooking-Classes_banner.jpg?w=1280&ssl=1');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the background image */
+    padding: 50px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+.search-bar .input-container input {
+  margin: 5px;
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.search-bar .sort-options ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  gap: 15px;
+  margin: 10px 0;
+}
+
+.search-bar .sort-options li {
+  cursor: pointer;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.search-bar .submit-button button {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding: 10px 20px;
+  background-color: #d5a544;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.search-bar .submit-button button:hover {
+  background-color: #b48c3c;
+}
